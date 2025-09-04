@@ -33,6 +33,5 @@
 ## 주요 코드
 코드 블록 넣기
 
-## Link   
-### Demo video link
-- [Visit EASYME.md's Repo](https://github.com/EASYME-md/client)  
+## Demo video link
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white)](https://youtube.com/shorts/2GCx_hT8v0I?feature=share)
