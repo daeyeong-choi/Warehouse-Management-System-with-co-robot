@@ -211,4 +211,5 @@ elif mode_select == 3:
 <img src="https://github.com/daeyeong-choi/WMS/blob/main/images/check.png" width="600" />
 
 ## Demo video link
-![YouTube](https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white)](https://youtube.com/shorts/2GCx_hT8v0I?feature=share)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white)](https://youtube.com/shorts/2GCx_hT8v0I?feature=share)
+
