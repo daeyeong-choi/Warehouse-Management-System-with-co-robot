@@ -23,21 +23,30 @@
   
 ## 개발 환경 및 장비
 
-- 개발 환경
+### **Development Environment**
 
-![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-E95420?logo=ubuntu&logoColor=white)
-![ROS2](https://img.shields.io/badge/ROS2-Humble-22314E?logo=ros&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3.10-3776AB?logo=python&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-- 장비
+
+### **Robotics**
+![ROS](https://img.shields.io/badge/ros-%230A0FF9.svg?style=for-the-badge&logo=ros&logoColor=white)   
+
+### **Programming Languages**
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
+### 하드웨어 구성
+#### **Robot**
+- Doosan Robotics m0609, OnRobot RG2 Gripper
+
 <p align="left">
   <img src="https://github.com/daeyeong-choi/WMS/blob/main/images/Doosan-Robotics-M0609-Cobot.png" width="300" />
   <img src="https://github.com/daeyeong-choi/WMS/blob/main/images/rg2.png" width="50" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/daeyeong-choi/WMS/blob/main/images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202025-09-04%2017-47-25.png" width="400" />
 </p>
 
-
-두산 로보틱스 M0609, OnRobot RG2 Gripper, Lego blocks
+### 로봇 제어 시스템
+- rclpy 기반 ROS2 제어 패키지 구성
+- Doosan ROS2 API 사용
 
 ## 동작 환경 가정
 - 생산 라인과 재고 창고 통합한 Workspace modeling
@@ -53,7 +62,15 @@
 1. 5가지 종류의 레고블록 분류 후 적재
 2. 원하는 블록 출고
 3. 재고 확인
-  ## 로직 블록도
+
+## 동작 흐름
+
+1. 모드 선택(1.분류 및 입고, 2.출고, 3.재고 확인)
+2. 1번 선택 시 블록 자동 분류하여 각 위치에 적재
+3. 2번 선택 시 선택한 블록 출고 위치로 이동
+4. 3번 선택 시 선택한 블록 개수 확인
+5. 각 동작 종료 후 또는 종료 번호 터미널 입력 시 대기 상태
+
 - 전체 동작 로직 블록도
 <img src="https://github.com/daeyeong-choi/WMS/blob/main/images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202025-09-04%2018-55-05.png" width="500" />
 - 분류 상세 로직 블록도 
@@ -63,8 +80,6 @@
 
 - 두산 로보틱스 배포
 ![코드 베이스](https://github.com/DoosanRobotics/doosan-robot2)
-
-- 시스템 개요
 
 1. **블록별 객체 생성**  
    생성 시 필요한 정보:
