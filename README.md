@@ -41,7 +41,7 @@
 
 <p align="left">
   <img src="https://github.com/daeyeong-choi/WMS/blob/main/images/Doosan-Robotics-M0609-Cobot.png" width="300" />
-  <img src="https://github.com/daeyeong-choi/WMS/blob/main/images/rg2.png" width="50" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/daeyeong-choi/WMS/blob/main/images/rg2.png" width="50" />
 </p>
 
 ### 로봇 제어 시스템
