@@ -71,10 +71,14 @@
 4. 3번 선택 시 선택한 블록 개수 확인
 5. 각 동작 종료 후 또는 종료 번호 터미널 입력 시 대기 상태
 
-- 전체 동작 로직 블록도
-<img src="https://github.com/daeyeong-choi/WMS/blob/main/images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202025-09-04%2018-55-05.png" width="500" />
-- 분류 상세 로직 블록도 
-<img src="https://github.com/daeyeong-choi/WMS/blob/main/images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202025-09-04%2019-15-19.png" width="500" />
+- 전체 동작 흐름
+<img src="https://github.com/daeyeong-choi/Warehouse-Management-System-with-co-robot/blob/main/images/flow1.png" width="500" />
+
+- 분류 동작 흐름 
+<img src="https://github.com/daeyeong-choi/Warehouse-Management-System-with-co-robot/blob/main/images/flow2.png" width="500" />
+
+- 분류 동작 상세 시퀸스
+<img src="https://github.com/daeyeong-choi/Warehouse-Management-System-with-co-robot/blob/main/images/flow3.png" width="500" />
 
 ## 주요 코드
 
