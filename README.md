@@ -77,7 +77,7 @@
 - 분류 동작 흐름 
 <img src="https://github.com/daeyeong-choi/Warehouse-Management-System-with-co-robot/blob/main/images/flow2.png" width="500" />
 
-- 분류 동작 상세 시퀸스
+- 분류 시퀸스
 <img src="https://github.com/daeyeong-choi/Warehouse-Management-System-with-co-robot/blob/main/images/flow3.png" width="500" />
 
 ## 주요 코드
